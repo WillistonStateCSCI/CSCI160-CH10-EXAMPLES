@@ -2,7 +2,7 @@
    Anderson, Franceschi
 */
 
-public class CheckingAccount extends BankAccount
+public class CheckingAccount5 extends BankAccount1
 {
    public final double DEFAULT_FEE = 5.00;
    private double monthlyFee;
@@ -11,7 +11,7 @@ public class CheckingAccount extends BankAccount
    *   explicitly calls the BankAccount default constructor
    *   set monthlyFee to default value
    */
-   public CheckingAccount( )
+   public CheckingAccount5( )
    {
      super( );   // call BankAccount constructor
      monthlyFee = DEFAULT_FEE;
@@ -22,7 +22,7 @@ public class CheckingAccount extends BankAccount
    *  @param  balance    starting balance
    *  @param  monthlyFee starting monthly fee
    */
-   public CheckingAccount( double balance,
+   public CheckingAccount5( double balance,
                            double monthlyFee )
    {
      super( balance );   // call BankAccount constructor
@@ -33,7 +33,7 @@ public class CheckingAccount extends BankAccount
    *   charges the monthly fee to the account
    *   @return a reference to this object
    */
-   public CheckingAccount applyMonthlyFee( )
+   public CheckingAccount1 applyMonthlyFee( )
    {
      balance -= monthlyFee;
      
@@ -52,7 +52,7 @@ public class CheckingAccount extends BankAccount
    *  @param monthlyFee new value for monthlyFee
    *  @return a reference to this object
    */
-   public CheckingAccount setMonthlyFee( double monthlyFee )
+   public CheckingAccount1 setMonthlyFee( double monthlyFee )
    {
      if ( monthlyFee >= 0.0 )
         this.monthlyFee = monthlyFee; 

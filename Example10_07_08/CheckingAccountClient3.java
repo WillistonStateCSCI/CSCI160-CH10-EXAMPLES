@@ -2,11 +2,11 @@
    Anderson, Franceschi
 */
 
-public class CheckingAccountClient
+public class CheckingAccountClient3
 {
    public static void main( String [] args )
    {
-     CheckingAccount c3 = new CheckingAccount( 100.00, 7.50 );
+     CheckingAccount3 c3 = new CheckingAccount3( 100.00, 7.50 );
      System.out.println( "New checking account:\n"
                           + c3.toString( )
                           + "; monthly fee is "

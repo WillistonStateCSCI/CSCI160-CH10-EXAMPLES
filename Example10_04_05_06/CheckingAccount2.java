@@ -2,12 +2,12 @@
    Anderson, Franceschi
 */
 
-public class CheckingAccount extends BankAccount
+public class CheckingAccount2 extends BankAccount3
 {
    /** default constructor
    *   explicitly calls the BankAccount default constructor
    */
-   public CheckingAccount( )
+   public CheckingAccount2( )
    {
        super( ); // optional, call BankAccount constructor
        System.out.println( "In CheckingAccount "
@@ -18,7 +18,7 @@ public class CheckingAccount extends BankAccount
    *   calls BankAccount overloaded constructor
    *   @param  balance  starting balance
    */
-   public CheckingAccount( double balance )
+   public CheckingAccount2( double balance )
    {
        super( balance ); // call BankAccount constructor
        System.out.println( "In CheckingAccount "

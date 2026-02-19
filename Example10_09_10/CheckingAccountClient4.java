@@ -2,11 +2,11 @@
    Anderson, Franceschi
 */
 
-public class CheckingAccountClient
+public class CheckingAccountClient4
 {
    public static void main( String [] args )
    {
-     CheckingAccount c4 = new CheckingAccount( 100.00, 7.50 );
+     CheckingAccount2 c4 = new CheckingAccount4( 100.00, 7.50 );
      System.out.println( "New checking account:\n" + c4 );
    }
 }

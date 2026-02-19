@@ -4,7 +4,7 @@
 */
 import java.text.DecimalFormat;
 
-public class BankAccount
+public class BankAccount3
 {
   public final DecimalFormat MONEY
                   = new DecimalFormat( "$#,##0.00" );
@@ -13,7 +13,7 @@ public class BankAccount
   /** default constructor
   *   sets balance to 0.0
   */
-  public BankAccount( )
+  public BankAccount3( )
   {
     balance = 0.0;
   }
@@ -21,7 +21,7 @@ public class BankAccount
   /** overloaded constructor
   *   @param balance  beginning balance
   */
-  public BankAccount( double balance )
+  public BankAccount3( double balance )
   {
     deposit( balance );
   }
@@ -39,7 +39,7 @@ public class BankAccount
   *                  amount must be >= 0.0
   *   @return  a reference to this object
   */
-  public BankAccount deposit( double amount )
+  public BankAccount3 deposit( double amount )
   {
     if ( amount >= 0.0 )
       balance += amount;
@@ -53,7 +53,7 @@ public class BankAccount
   *                    amount must be <= balance
   *    @return a reference to this object
   */
-  public BankAccount withdraw( double amount )
+  public BankAccount3 withdraw( double amount )
   {
     if ( amount >= 0.0 && amount <= balance )
       balance -= amount;

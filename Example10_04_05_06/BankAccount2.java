@@ -6,7 +6,7 @@
 
 import java.text.DecimalFormat;
 
-public class BankAccount
+public class BankAccount2
 {
    public final DecimalFormat MONEY
                   = new DecimalFormat( "$#,##0.00" );
@@ -15,7 +15,7 @@ public class BankAccount
    /** default constructor
    *   sets balance to 0.0
    */
-   public BankAccount( )
+   public BankAccount2( )
    {
      balance = 0.0;
      System.out.println( "In BankAccount default constructor" );
@@ -24,7 +24,7 @@ public class BankAccount
    /** overloaded constructor
    *   @param balance  beginning balance
    */
-   public BankAccount( double balance )
+   public BankAccount2( double balance )
    {
      if ( balance >= 0.0 )
          this.balance = balance;
