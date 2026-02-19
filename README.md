@@ -7,3 +7,4 @@ Programming Exercises From Java Illuminated Book by Anderson and Franceschi
 **Example10_11_12_13** - Version 5 of the BankAccount, CheckingAccount and CheckingAccountClient files  
 **Example10_21_22_23_24_25** - Three examples in one.  Superclass StringHandler has children HexStringHandler and PasswordSecurityHandler with their own clients  
 **Example10_26_27_28_29_30** - Superclass StandardShipping has children Express Shipping and Flat Rate Shipping  
+*Note: you will need to go into the menu >Java: Configure Java Runtime and set the classpath compiler to any java version greater than 14 to run this example*

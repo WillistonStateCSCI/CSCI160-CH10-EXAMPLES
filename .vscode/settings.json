@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "Example10_01_02_03",
+        "Example10_04_05_06",
+        "Example10_07_08",
+        "Example10_09_10",
+        "Example10_11_12_13",
+        "Example10_21_22_23_24_25",
+        "Example10_26_27_28_29_30"
+    ],
+    "java.project.referencedLibraries": []
+}

@@ -19,5 +19,6 @@ public class HexStringHandlerClient
       System.out.println( hex + " = " + hsh.getNumber( ) );
     else
       System.out.println( hex + " is not a valid hex number." );
+    scan.close();
   }
 }

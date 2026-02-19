@@ -20,5 +20,6 @@ public class PasswordSecurityHandlerClient
     
     System.out.println( password + "'s security is " 
                + psh.securityLevel( ) );
+    scan.close();
   }
 }

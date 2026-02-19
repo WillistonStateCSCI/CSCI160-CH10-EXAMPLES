@@ -34,5 +34,6 @@ public class ShippingCalculator
             + money.format( shippingCost.calculateShipping( weight ) ) );
      else 
         System.out.println( "No valid shipping option selected." );         
+      scan.close();
    }
 } 
