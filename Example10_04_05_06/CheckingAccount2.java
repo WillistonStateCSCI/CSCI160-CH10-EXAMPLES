@@ -2,7 +2,7 @@
    Anderson, Franceschi
 */
 
-public class CheckingAccount2 extends BankAccount3
+public class CheckingAccount2 extends BankAccount2
 {
    /** default constructor
    *   explicitly calls the BankAccount default constructor

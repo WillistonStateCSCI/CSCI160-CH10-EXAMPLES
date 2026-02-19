@@ -39,7 +39,7 @@ public class BankAccount4
   *                  amount must be >= 0.0
   *   @return  a reference to this object
   */
-  public BankAccount2 deposit( double amount )
+  public BankAccount4 deposit( double amount )
   {
     if ( amount >= 0.0 )
       balance += amount;
@@ -53,7 +53,7 @@ public class BankAccount4
   *                    amount must be <= balance
   *    @return a reference to this object
   */
-  public BankAccount2 withdraw( double amount )
+  public BankAccount4 withdraw( double amount )
   {
     if ( amount >= 0.0 && amount <= balance )
       balance -= amount;

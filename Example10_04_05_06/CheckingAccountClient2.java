@@ -7,11 +7,11 @@ public class CheckingAccountClient2
    public static void main( String [] args )
    {
      // use default constructor
-     CheckingAccount3 c1 = new CheckingAccount3( );
+     CheckingAccount2 c1 = new CheckingAccount2( );
      System.out.println( "New checking account: " + c1 + "\n" );
 
      // use overloaded constructor
-     CheckingAccount3 c2 = new CheckingAccount3( 100.00 );
+     CheckingAccount2 c2 = new CheckingAccount2( 100.00 );
      System.out.println( "New checking account: " + c2 );
    }
 }
